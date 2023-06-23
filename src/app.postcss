@@ -1,5 +1,31 @@
 /*place global styles here */
+
+@font-face {
+	/* Reference name */
+	font-family: 'Roboto';
+	/* For multiple files use commas, ex: url(), url(), ... */
+	src: url('/fonts/Roboto-Black.ttf'),
+	url('/fonts/Roboto-BlackItalic.ttf'),
+	url('/fonts/Roboto-Bold.ttf'),
+	url('/fonts/Roboto-BoldItalic.ttf'),
+	url('/fonts/Roboto-Italic.ttf'),
+	url('/fonts/Roboto-Light.ttf'),
+	url('/fonts/Roboto-LightItalic.ttf'),
+	url('/fonts/Roboto-Medium.ttf'),
+	url('/fonts/Roboto-MediumItalic.ttf'),
+	url('/fonts/Roboto-Regular.ttf'),
+	url('/fonts/Roboto-Thin.ttf'),
+	url('/fonts/Roboto-ThinItalic.ttf')
+}
+
+:root {
+    --theme-font-family-base: 'Roboto', sans-serif;
+    --theme-font-family-heading: 'Roboto', sans-serif;
+    /* ... */
+}
+
 html,
 body {
 	@apply h-full;
+	@apply bg-surface-50-900-token;
 }
