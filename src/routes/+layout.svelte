@@ -20,7 +20,7 @@
   		{#if data?.username}	
             <Avatar initials="HF" width="w-10" background="bg-primary-500" />
 		{:else}
-            <a href="/login" class="button bg-primary-500">Log in</a>
+            <a href="/login" class="bg-primary-500 rounded p-1 px-3">Log in/Register</a>
 		{/if}
 	</svelte:fragment>
 </AppBar>
